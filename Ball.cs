@@ -56,7 +56,7 @@ public class Ball : MonoBehaviour
             else
             {
 
-                int randchance = Random.Range(1, 101);
+                int randchance = Random.Range(1, 101); #สุ่มการเกิดpowerup
                 if (randchance < 20)
                 {
                     Instantiate(powerup, other.transform.position, other.transform.rotation);
